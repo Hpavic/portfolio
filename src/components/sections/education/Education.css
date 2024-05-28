@@ -1,0 +1,39 @@
+.education-section {
+
+    .puzzle-piece {
+        flex-grow: 1;
+        flex-basis: calc(100% / 3);
+        max-width: 300px;
+        height: 200px;
+        background-color: #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        clip-path: polygon(
+            15% 0, /* Upper left start */
+            85% 0, /* Upper right start */
+            85% 15%, 84% 20%, 83.5% 22%, 83% 24%, 82% 26%, 81% 28%, 80% 30%, 79% 32%, 78% 34%, 77% 36%, 76% 38%, 75% 40%, /* Gradual curve inwards right */
+            74% 42%, 73% 44%, 72.5% 46%, 72% 48%, 71.5% 50%, /* Deepest middle point of the curve right */
+            72% 52%, 72.5% 54%, 73% 56%, 74% 58%, 75% 60%, /* Gradual curve outwards right */
+            76% 62%, 77% 64%, 78% 66%, 79% 68%, 80% 70%, 81% 72%, 82% 74%, 83% 76%, 83.5% 78%, 84% 80%, 85% 85%, /* Returning to straight edge right */
+            85% 100%, /* Bottom right end */
+            15% 100%, /* Bottom left end */
+            15% 85%, 14.5% 80%, 14% 78%, 13.5% 76%, 13% 74%, 12% 72%, 11% 70%, /* Gradual curve inwards left */
+            10% 68%, 9% 66%, 8% 64%, 7% 62%, 6% 60%, /* Deeper part of the curve left */
+            5% 58%, 4% 56%, 3.5% 54%, 3% 52%, 2.5% 50%, /* Deepest middle point of the curve left */
+            3% 48%, 3.5% 46%, 4% 44%, 5% 42%, 6% 40%, /* Gradual curve outwards left */
+            7% 38%, 8% 36%, 9% 34%, 10% 32%, 11% 30%, 12% 28%, 13% 26%, 13.5% 24%, 14% 22%, 14.5% 20%, 15% 15% /* Returning to straight edge left */
+        );
+    }
+      
+    .content {
+        text-align: center;
+        position: relative;
+        left: -7.5%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: space-between;
+    }
+}

@@ -1,5 +1,7 @@
 import React from 'react';
+import Education from './sections/education/Education';
 import './MainContent.css';
+import WorkProjectsSection from './sections/projects/work/WorkProjects';
 
 const MainContent = () => {
   return (
@@ -8,14 +10,15 @@ const MainContent = () => {
         <h2>About Me</h2>
         <p>Brief description about yourself.</p>
       </section>
-      <section className="section">
-        <h2>Projects</h2>
-        <p>List of projects with brief descriptions.</p>
-      </section>
+
+      <WorkProjectsSection />
+      
       <section className="section">
         <h2>Contact</h2>
         <p>How to reach you.</p>
       </section>
+
+      <Education/>
     </main>
   );
 }

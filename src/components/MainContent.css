@@ -2,10 +2,12 @@
     padding: 20px;
   }
   
-  .section {
-    margin-bottom: 20px;
-  }
-  
-  .section h2 {
-    margin-top: 0;
-  }
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.section h2 {
+  margin-top: 0;
+}

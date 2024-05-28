@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Grilljack",
+      "imageUrl": "path/to/grilljack-image.jpg",
+      "siteUrl": "https://grilljack.ch",
+      "description": "Front-end development, UI/UX design."
+    },
+    {
+      "title": "Energy 3000",
+      "imageUrl": "path/to/energy3000-image.jpg",
+      "siteUrl": "https://energy3000.com",
+      "description": "Backend API integration, performance optimization."
+    },
+    {
+      "title": "Smartstore",
+      "imageUrl": "path/to/smartstore-image.jpg",
+      "siteUrl": "https://smartstore.com",
+      "description": "E-commerce functionality enhancement, security updates."
+    }
+  ]
+  
