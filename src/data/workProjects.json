@@ -1,21 +1,24 @@
 [
     {
       "title": "Grilljack",
-      "imageUrl": "path/to/grilljack-image.jpg",
+      "imageUrl": "/images/grill_jack_logo.png",
       "siteUrl": "https://grilljack.ch",
-      "description": "Front-end development, UI/UX design."
+      "description": "Front-end development, UI/UX design.",
+      "skills": ["HTML", "CSS", "JavaScript", "CSharp"]
     },
     {
       "title": "Energy 3000",
-      "imageUrl": "path/to/energy3000-image.jpg",
+      "imageUrl": "/images/energy_3000_logo.svg",
       "siteUrl": "https://energy3000.com",
-      "description": "Backend API integration, performance optimization."
+      "description": "Backend API integration, performance optimization.",
+      "skills": ["HTML", "CSS", "JavaScript", "React", "CSharp"]
     },
     {
       "title": "Smartstore",
-      "imageUrl": "path/to/smartstore-image.jpg",
+      "imageUrl": "/images/smartstore_logo.png",
       "siteUrl": "https://smartstore.com",
-      "description": "E-commerce functionality enhancement, security updates."
+      "description": "E-commerce functionality enhancement, security updates.",
+      "skills": ["ASPNETCore", "EntityFramework", "MVC", "RazorPages"]
     }
   ]
   

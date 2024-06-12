@@ -12,7 +12,12 @@ const Header = () => {
         <div className="header-info">
           <h1>Hrvoje Pavić</h1>
           <p><MdLocationOn /> Zagreb, Croatia</p>
-          <p><MdEmail /> hrvoje.pavic994@gmail.com</p>
+          <p>
+            <MdEmail />
+            <a href="mailto:hrvoje.pavic994@gmail.com" className="email-link">
+              hrvoje.pavic994@gmail.com
+            </a>
+          </p>
         </div>
       </div>
     </header>

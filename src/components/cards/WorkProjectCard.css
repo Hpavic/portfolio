@@ -1,25 +1,96 @@
 .project-card {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    position: relative;
+    color: white;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin: 20px;
-    text-align: center;
+    height: 220px;
+    transition: height 0.75s ease-in-out;
 }
 
-.project-image {
+.project-card.expanded {
+    height: 400px;
+}
+
+.project-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+
+.project-card .project-content {
+    position: relative;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.skills {
+    order: 1; /* Ensures skills are at the top */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.asp-net-background {
+    width: 21px;
+    height: 21px;
+    background-image: url('/public/images/aspnet.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.project-details {
+    order: 2; /* Keeps the details under the skills and above the button */
+    width: 100%;
+    max-height: 0; /* Start with max-height at 0 */
+    overflow: hidden; /* Prevents content from showing when max-height is 0 */
+    transition: max-height 0.75s ease-in-out; /* Smooth transition for max-height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.project-details.expanded {
+    max-height: 500px; /* Expand to max-height of 500px */
+}
+
+.toggle-details {
+    order: 3; /* Keeps the button at the bottom */
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+    align-self: center; /* Center the button within the flex container */
 }
 
 .project-link {
-    display: inline-block;
-    margin: 10px 0;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+color: lightblue; /* Adjust color for better visibility */
 }

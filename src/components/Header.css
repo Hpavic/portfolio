@@ -1,41 +1,50 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #282c34;
-    color: white;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
   
-  .header-left .profile-pic {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
-  
-  .header-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .header-info h1 {
-    margin: 0;
-    text-align: left;
-  }
-  
-  .header-info p {
-    margin: 5px 0;
-  }
+.header-left .profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 
-  .header p {
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
-  }
-  
-  .header p svg {
-    margin-right: 8px;
-    color: #61dafb;
-    vertical-align: middle;
-  }
+.header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-info h1 {
+  margin: 0;
+  text-align: left;
+}
+
+.header-info p {
+  margin: 5px 0;
+}
+
+.header p {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.header p svg {
+  margin-right: 8px;
+  color: #61dafb;
+  vertical-align: middle;
+}
+
+.email-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
