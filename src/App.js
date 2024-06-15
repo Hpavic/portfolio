@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import MainContent from './components/MainContent';
+import { LanguageProvider } from './LanguageContext';
+import Header from './header/Header';
+import MainContent from './components/main/MainContent';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <MainContent />
+      <LanguageProvider>
+        <MainContent />
+      </LanguageProvider>
     </div>
   );
 }

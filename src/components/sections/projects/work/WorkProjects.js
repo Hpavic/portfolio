@@ -1,15 +1,18 @@
 import WorkProjectCard from "../../../cards/WorkProjectCard";
-import workProjects from '../../../../data/workProjects.json';
+
+import { useLanguage } from "../../../../LanguageContext";
 import './WorkProjects.css'
 
-const WorkProjectsSection = () => {
+const WorkProjectsSection = ({ projects }) => {
+  const { translate } = useLanguage();
+
   return (
     <section className="section">
       <div className="section-title">
-        <h2>Projects I worked on</h2>
+        <h2>{translate('titleProjects')}</h2>
       </div>
       <div className="section-content">
-        {workProjects.map(project => (
+        {projects.map(project => (
           <WorkProjectCard key={project.title} {...project} />
         ))}
       </div>

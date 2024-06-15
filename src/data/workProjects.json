@@ -3,22 +3,25 @@
       "title": "Grilljack",
       "imageUrl": "/images/grill_jack_logo.png",
       "siteUrl": "https://grilljack.ch",
-      "description": "Front-end development, UI/UX design.",
-      "skills": ["HTML", "CSS", "JavaScript", "CSharp"]
+      "description": ["gjDescription1", "gjDescription2"],
+      "skills": ["HTML", "CSS", "JavaScript", "CSharp"],
+      "workLabel": "workYapanner"
     },
     {
       "title": "Energy 3000",
       "imageUrl": "/images/energy_3000_logo.svg",
-      "siteUrl": "https://energy3000.com",
-      "description": "Backend API integration, performance optimization.",
-      "skills": ["HTML", "CSS", "JavaScript", "React", "CSharp"]
+      "siteUrl": "https://shop.energy3000.com/",
+      "description": ["enDescription1", "enDescription2"],
+      "skills": ["JavaScript", "React", "CSharp", "TypeScript"],
+      "workLabel": "workYapanner"
     },
     {
       "title": "Smartstore",
       "imageUrl": "/images/smartstore_logo.png",
       "siteUrl": "https://smartstore.com",
-      "description": "E-commerce functionality enhancement, security updates.",
-      "skills": ["ASPNETCore", "EntityFramework", "MVC", "RazorPages"]
+      "description": ["ssDescription1"],
+      "skills": ["ASPNETCore", "EntityFramework", "MVC", "RazorPages"],
+      "workLabel": "workYapanner"
     }
   ]
   

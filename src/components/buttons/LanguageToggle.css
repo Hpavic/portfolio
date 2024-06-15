@@ -1,0 +1,45 @@
+.language-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: min-content;
+}
+
+.language-btn {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.language-btn:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
+}
+
+.language-btn-inner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s 0.3s;
+}
+
+.language-btn-inner .language-btn {
+    width: 30px;
+    height: 30px;
+}
+
+.language-container:hover .language-btn-inner,
+.language-btn-inner.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s, visibility 0s;
+}

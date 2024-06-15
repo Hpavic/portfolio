@@ -7,6 +7,7 @@ const skillIcons = {
   JavaScript: { icon: <FontAwesomeIcon icon={faJsSquare} />, name: "JavaScript", color: "#f0db4f" },
   React: { icon: <FontAwesomeIcon icon={faReact} />, name: "React", color: "#4ad5ff" },
   CSharp: { name: "C#", color: "#1e9e25" },
+  TypeScript: { icon: <div className="typescript-logo" />, name: "TypeScript", color: "#2d79c7"},
   ASPNETCore: { icon: <div className="asp-net-background" />, name:"ASP.NET Core", color:"#c4c4c4" },
   EntityFramework: { name: "Entity Framework", color: "#a4a4a4"},
   MVC: { name: "MVC", color: "#b4b4b4" },
