@@ -30,6 +30,7 @@ const LanguageToggle = () => {
         <button className='language-btn'
             onClick={() => setIsOpen(!isOpen)}
             title={language === 'en' ? "Change language" : "Promijeni jezik"}
+            aria-label={language === 'en' ? "Change language" : "Promijeni jezik"}
             type='button'
             style={{ backgroundImage: `url(${language === 'en' ? '/images/en_flag.svg' : '/images/hr_flag.svg'})` }}>
         </button>
@@ -38,6 +39,7 @@ const LanguageToggle = () => {
                 className="language-btn"
                 onClick={() => toggleLanguage(language === 'en' ? 'hr' : 'en')}
                 title={language === 'en' ? "Croatian" : "Engleski"}
+                aria-label={language === 'en' ? "Croatian" : "Engleski"}
                 type="button"
                 style={{
                     backgroundImage: `url('/images/${language === 'en' ? 'hr_flag.svg' : 'en_flag.svg'}')`

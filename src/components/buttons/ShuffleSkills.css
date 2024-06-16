@@ -1,0 +1,15 @@
+.shuffle-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.shuffle-button:hover {
+    color: #c5c5c5;
+}
+
+.shuffle-button:focus {
+    outline: none;
+}

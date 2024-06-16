@@ -20,3 +20,8 @@
 .section h2 {
   margin-top: 0;
 }
+
+.button-menu {
+  display: flex;
+  justify-content: space-between;
+}
