@@ -27,7 +27,13 @@
     }
 
     .project-card.expanded {
-        height: 320px;
+        height: 340px;
+    }
+}
+
+@media (max-width: 400px) {
+    .project-card.expanded {
+        height: 520px;
     }
 }
 
