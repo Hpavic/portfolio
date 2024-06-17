@@ -23,6 +23,10 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
 }
 
+.language-btn.hidden {
+    display: none;
+}
+
 .language-btn-inner {
     display: flex;
     align-items: center;
@@ -37,9 +41,16 @@
     height: 30px;
 }
 
-.language-container:hover .language-btn-inner,
 .language-btn-inner.visible {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.3s, visibility 0s;
+}
+
+@media (min-width: 576px) {
+    .language-container:hover .language-btn-inner {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.3s, visibility 0s;
+    }
 }

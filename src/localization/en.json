@@ -4,9 +4,16 @@
     "enDescription1": "Developed full-stack features for shop, from database management to frontend views",
     "enDescription2": "Worked on a React frontend project in TypeScript and backend in C#",
     "ssDescription1": "Upgraded custom plugin codebase from version 4.2 to ASP.NET Core",
+    "pfDescription1": "Developed interactive user interface using React and JavaScript",
+    "pfDescription2": "Managed CSS for style and layout customization",
     "workYapanner": "As student in Yapanner",
+    "workPersonal": "Own project",
     "btnClose": "Close",
     "btnDiscover": "Discover more",
     "titleProjects": "Projects I worked on",
-    "shuffleSkills": "Shuffle skills"
+    "shuffleSkills": "Shuffle skills",
+    "changeLanguage": "Change language",
+    "languageNameInEnglish": "English",
+    "languageNameInCroatian": "Croatian",
+    "languageNameInGerman": "German"
 }

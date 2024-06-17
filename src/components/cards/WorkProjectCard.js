@@ -22,9 +22,13 @@ const WorkProjectCard = ({ title, imageUrl, siteUrl, description, skills, workLa
           ))}
         </div>
         <div className={`project-details ${isOpen ? 'expanded' : ''}`}>
-          <a href={siteUrl} target="_blank" rel="noopener noreferrer" className="title-link">
-            <h3>{title}</h3>
-          </a>
+          {siteUrl ? 
+            <a href={siteUrl} target="_blank" rel="noopener noreferrer" className="title-link">
+              <h3>{title}</h3>
+            </a>
+            :
+            <h3 className="title-nolink">{title}</h3>
+          }
           {description.length > 0 && (
             <ul className="description-list">
               {description.map((descKey, index) => (
@@ -34,7 +38,11 @@ const WorkProjectCard = ({ title, imageUrl, siteUrl, description, skills, workLa
           )}
           <span className="employee">{translate(workLabel)}</span>
         </div>
-        <button onClick={() => setIsOpen(!isOpen)} type="button" className="toggle-details">
+        <button 
+          onClick={() => setIsOpen(!isOpen)} 
+          type="button" 
+          className="toggle-details" 
+          aria-label={isOpen ? translate('btnClose') : translate('btnDiscover')}>
           {isOpen ? translate('btnClose') : translate('btnDiscover')}
         </button>
       </div>

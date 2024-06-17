@@ -11,7 +11,7 @@ const WorkProjectsSection = ({ projects }) => {
       <div className="section-title">
         <h2>{translate('titleProjects')}</h2>
       </div>
-      <div className="section-content">
+      <div className="section-content project-section">
         {projects.map(project => (
           <WorkProjectCard key={project.title} {...project} />
         ))}

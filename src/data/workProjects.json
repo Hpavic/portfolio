@@ -22,6 +22,14 @@
       "description": ["ssDescription1"],
       "skills": ["ASPNETCore", "EntityFramework", "MVC", "RazorPages"],
       "workLabel": "workYapanner"
+    },
+    {
+      "title": "Portfolio",
+      "imageUrl": "/images/this_logo.png",
+      "siteUrl": "",
+      "description": ["pfDescription1", "pfDescription2"],
+      "skills": ["React", "JavaScript", "CSS"],
+      "workLabel": "workPersonal"
     }
   ]
   

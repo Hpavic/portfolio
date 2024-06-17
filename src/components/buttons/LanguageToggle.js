@@ -1,9 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useLanguage } from '../../LanguageContext'
+import React, { useState, useRef } from 'react';
+import { useLanguage } from '../../LanguageContext';
+import languages from '../../constants/languages';
+import useOutsideClick from '../../hooks/useOutsideClick';
 import './LanguageToggle.css';
 
 const LanguageToggle = () => {
-  const { language, setLanguage } = useLanguage();
+  const { language, setLanguage, translate } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
   const toggleRef = useRef(null);
 
@@ -12,40 +14,30 @@ const LanguageToggle = () => {
     setIsOpen(false);
   };
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (toggleRef.current && !toggleRef.current.contains(event.target)) {
-        setIsOpen(false);
-      }
-    };
-
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, [toggleRef]);
+  useOutsideClick(toggleRef, () => setIsOpen(false));
 
   return (
     <div ref={toggleRef} className="language-container">
-        <button className='language-btn'
-            onClick={() => setIsOpen(!isOpen)}
-            title={language === 'en' ? "Change language" : "Promijeni jezik"}
-            aria-label={language === 'en' ? "Change language" : "Promijeni jezik"}
-            type='button'
-            style={{ backgroundImage: `url(${language === 'en' ? '/images/en_flag.svg' : '/images/hr_flag.svg'})` }}>
-        </button>
-        <div className={`language-btn-inner ${isOpen ? 'visible' : ''}`}>
-            <button
-                className="language-btn"
-                onClick={() => toggleLanguage(language === 'en' ? 'hr' : 'en')}
-                title={language === 'en' ? "Croatian" : "Engleski"}
-                aria-label={language === 'en' ? "Croatian" : "Engleski"}
-                type="button"
-                style={{
-                    backgroundImage: `url('/images/${language === 'en' ? 'hr_flag.svg' : 'en_flag.svg'}')`
-                }}>
-            </button>
-        </div>
+      <button className='language-btn'
+          onClick={() => setIsOpen(!isOpen)}
+          title={translate('changeLanguage')}
+          aria-label={translate('changeLanguage')}
+          type='button'
+          style={{ backgroundImage: `url(${languages[language].flagImage})` }}>
+      </button>
+      <div className={`language-btn-inner ${isOpen ? 'visible' : ''}`}>
+        {Object.keys(languages).map(lang => (
+          <button
+            key={lang}
+            className={`language-btn ${lang === language ? 'hidden' : ''}`}
+            onClick={() => toggleLanguage(lang)}
+            title={translate(`languageNameIn${languages[lang].name}`)}
+            aria-label={translate(`languageNameIn${languages[lang].name}`)}
+            type="button"
+            style={{ backgroundImage: `url(${languages[lang].flagImage})` }}>
+          </button>
+        ))}
+      </div>
     </div>
   );
 };
