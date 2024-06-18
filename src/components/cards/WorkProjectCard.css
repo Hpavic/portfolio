@@ -162,7 +162,26 @@
 .description-list {
     text-align: left;
     align-self: flex-start;
+    overflow-y: hidden;
+    transition: overflow-y 0.75s ease-in-out;
+    padding-right: 8px;
 }
+
+@keyframes delayedOverflow {
+    0% {
+      overflow-y: hidden;
+    }
+    99.9% {
+      overflow-y: hidden;
+    }
+    100% {
+      overflow-y: auto;
+    }
+  }
+
+.project-details.expanded .description-list {
+    animation: delayedOverflow 0.75s forwards;
+  }
 
 .employee {
     font-size: 8px;
