@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 import { LanguageProvider } from './LanguageContext';
 import Header from './header/Header';
-import MainContent from './components/main/MainContent';
+import MainContent from './main/MainContent';
 import Footer from './footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <LanguageProvider>
         <MainContent />
