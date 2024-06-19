@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-left">
-        <img src={userData.profilePicPath} alt={userData.fullName} className="profile-pic" />
+        <img src={`${process.env.PUBLIC_URL}${userData.profilePicPath}`}  alt={userData.fullName} className="profile-pic" />
       </div>
       <div className="header-right">
         <div className="header-info">

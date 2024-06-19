@@ -11,7 +11,7 @@ const ProjectCard = ({ title, imageUrl, siteUrl, description, skills, workLabel 
   const { translate } = useLanguage();
 
   return (
-    <div className={`project-card ${isOpen ? 'expanded' : ''}`} style={{ backgroundImage: `url(${imageUrl})` }}>
+    <div className={`project-card ${isOpen ? 'expanded' : ''}`} style={{ backgroundImage: `url(${process.env.PUBLIC_URL}${imageUrl})` }}>
       <div className="project-content">
         <div className="skills">
           {shuffledSkills.map(skill => (

@@ -23,7 +23,7 @@ const LanguageToggle = () => {
           title={translate('changeLanguage')}
           aria-label={translate('changeLanguage')}
           type='button'
-          style={{ backgroundImage: `url(${languages[language].flagImage})` }}>
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}${languages[language].flagImage})` }}>
       </button>
       <div className={`language-btn-inner ${isOpen ? 'visible' : ''}`}>
         {Object.keys(languages).map(lang => (
@@ -34,7 +34,7 @@ const LanguageToggle = () => {
             title={translate(`languageNameIn${languages[lang].name}`)}
             aria-label={translate(`languageNameIn${languages[lang].name}`)}
             type="button"
-            style={{ backgroundImage: `url(${languages[lang].flagImage})` }}>
+            style={{ backgroundImage: `url(${process.env.PUBLIC_URL}${languages[lang].flagImage})` }}>
           </button>
         ))}
       </div>
