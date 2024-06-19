@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.footer h2 {
+    margin-top: 0;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer .container a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .container a:hover {
+    text-decoration: underline;
+    color: darken(#000000, 10%);
+}
+
+.footer .container a svg {
+    fill: currentColor;
+}

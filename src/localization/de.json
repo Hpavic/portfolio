@@ -15,5 +15,14 @@
     "changeLanguage": "Sprache ändern",
     "languageNameInEnglish": "Englisch",
     "languageNameInCroatian": "Kroatisch",
-    "languageNameInGerman": "Deutsch"
+    "languageNameInGerman": "Deutsch",
+    "titleFooter": "Kontakt",
+    "btnToTop": "Ganz nach oben!",
+    "titleAboutMe": "Über mich",
+    "msgAboutMe1": "Hallo, ich bin Hrvoje und willkommen in meinem Portfolio! Ich habe meine Karriere als Front-End-Entwickler begonnen, wo ich in zwei Jahren bei meinem ersten Unternehmen wertvolle Erfahrungen gesammelt habe. Mit der Zeit haben sich meine Ambitionen in Richtung Full-Stack-Entwicklung erweitert, von Datenbanken bis hin zu Benutzeroberflächen. Mein Hauptaugenmerk liegt auf der App-Entwicklung mit React, wo ich meine Fähigkeiten kontinuierlich verbessere und mit den neuesten Technologietrends Schritt halte.",
+    "msgAboutMe2": "Ich habe dieses Portfolio erstellt, um die Projekte, an denen ich gearbeitet habe, und die Technologien, die ich bisher zu perfektionieren versucht habe, auf interessante und klare Weise zu präsentieren. Jedes Projekt hat seine eigene Geschichte und seine eigenen Erkenntnisse, die es mir ermöglicht haben, als Programmierer zu wachsen. Wenn Sie an einer Zusammenarbeit interessiert sind oder Projekte haben, zu denen ich Ihrer Meinung nach beitragen kann, können Sie mich gerne kontaktieren.",
+    "msgOccupation": "Ich befinde mich derzeit in den letzten Zügen meiner Masterarbeit und suche aktiv nach einer Stelle im React-Entwicklungsbereich. Ich bin auch offen für andere Möglichkeiten.",
+    "titlePath": "Mein Weg",
+    "badgeSoon": "Bald",
+    "badgeJob": "Erster Job"
 }

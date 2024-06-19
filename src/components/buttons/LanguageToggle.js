@@ -18,7 +18,7 @@ const LanguageToggle = () => {
 
   return (
     <div ref={toggleRef} className="language-container">
-      <button className='language-btn'
+      <button className="language-btn"
           onClick={() => setIsOpen(!isOpen)}
           title={translate('changeLanguage')}
           aria-label={translate('changeLanguage')}

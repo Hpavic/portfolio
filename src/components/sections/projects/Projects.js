@@ -1,9 +1,8 @@
-import WorkProjectCard from "../../../cards/WorkProjectCard";
+import ProjectCard from "../../cards/ProjectCard";
+import { useLanguage } from "../../../LanguageContext";
+import './Projects.css'
 
-import { useLanguage } from "../../../../LanguageContext";
-import './WorkProjects.css'
-
-const WorkProjectsSection = ({ projects }) => {
+const ProjectsSection = ({ projects }) => {
   const { translate } = useLanguage();
 
   return (
@@ -13,11 +12,11 @@ const WorkProjectsSection = ({ projects }) => {
       </div>
       <div className="section-content project-section">
         {projects.map(project => (
-          <WorkProjectCard key={project.title} {...project} />
+          <ProjectCard key={project.title} {...project} />
         ))}
       </div>
     </section>
   );
 }
 
-export default WorkProjectsSection;
+export default ProjectsSection;

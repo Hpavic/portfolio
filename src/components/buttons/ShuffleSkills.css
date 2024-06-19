@@ -4,12 +4,24 @@
     cursor: pointer;
     border-radius: 50%;
     color: rgba(0, 0, 0, 0.9);
-}
-
-.shuffle-button:hover {
-    color: #c5c5c5;
-}
-
-.shuffle-button:focus {
     outline: none;
+}
+
+button.shuffle-button:focus,
+button.shuffle-button:focus-visible,
+button.shuffle-button:active {
+  outline: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+@media (min-width: 576px) {
+    .shuffle-button:hover {
+        color: #c5c5c5;
+    }
+}
+
+.shuffle-button:active {
+    color: #c5c5c5;
+    transform: scale(0.95);
 }

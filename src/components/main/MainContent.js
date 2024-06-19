@@ -1,10 +1,11 @@
 import React from 'react';
-import Education from '../sections/education/Education';
-import WorkProjectsSection from '../sections/projects/work/WorkProjects';
+import ProjectsSection from '../sections/projects/Projects';
 import LanguageToggle from '../buttons/LanguageToggle';
 import workProjects from '../../data/workProjects.json';
 import useShuffledProjects from '../../hooks/useShuffledProjects'
 import ShuffleSkills from '../buttons/ShuffleSkills';
+import AboutMeSection from '../sections/aboutMe/AboutMe';
+import CareerSection from '../sections/career/Career';
 import './MainContent.css';
 
 const MainContent = () => {
@@ -16,8 +17,9 @@ const MainContent = () => {
         <LanguageToggle />
         <ShuffleSkills onClick={shuffleSkillsInProjects} />
       </div>
-      <WorkProjectsSection projects={projects} />
-      <Education/>
+      <ProjectsSection projects={projects} />
+      <AboutMeSection />
+      <CareerSection />
     </main>
   );
 }

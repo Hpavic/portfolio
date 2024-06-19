@@ -15,5 +15,14 @@
     "changeLanguage": "Promijeni jezik",
     "languageNameInEnglish": "Engleski",
     "languageNameInCroatian": "Hrvatski",
-    "languageNameInGerman": "Njemački"
+    "languageNameInGerman": "Njemački",
+    "titleFooter": "Kontakt",
+    "btnToTop": "Na vrh!",
+    "titleAboutMe": "O meni",
+    "msgAboutMe1": "Bok, ja sam Hrvoje i dobrodošli na moj portfolio! Karijeru sam započeo kao front-end developer, gdje sam kroz dvije godine u prvoj firmi stekao dragocjeno iskustvo. S vremenom, moje težnje su se proširile prema full-stack razvoju, od baza podataka do korisničkih sučelja. Moj primarni fokus je na razvoju aplikacija koristeći React, gdje kontinuirano usavršavam svoje vještine i pratim najnovije trendove u tehnologiji.",
+    "msgAboutMe2": "Kreirao sam ovaj portfolio kako bih na zanimljiv i pregledan način prikazao projekte na kojima sam radio i tehnologije koje sam usavršavao do sada. Svaki projekt ima svoju priču i učenja koja su mi omogućila da rastem kao programer. Ako ste zainteresirani za suradnju ili imate projekte na kojima mislite da mogu doprinijeti, slobodno me kontaktirajte.",
+    "msgOccupation": "Trenutno sam u završnoj fazi pisanja diplomskog rada i tražim posao kao React developer. Otvoren sam i za druge opcije.",
+    "titlePath": "Moj put",
+    "badgeSoon": "Uskoro",
+    "badgeJob": "Prvi posao"
 }

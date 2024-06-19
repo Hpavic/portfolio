@@ -1,0 +1,31 @@
+{
+    "events": [
+      {
+        "type": "education",
+        "date": "2013",
+        "description": "Graduated at MIOC",
+        "detail": "XV. Gymnasium, Zagreb"
+      },
+      {
+        "type": "education",
+        "date": "2021",
+        "description": "Bachelor's degree in computer science",
+        "detail": "FOI, University of Zagreb"
+      },
+      {
+        "type": "career",
+        "date": "2022 - 2024",
+        "company": "Yapanner",
+        "role": "Frontend Developer (Full Stack focus)",
+        "badge": "badgeJob"
+      },
+      {
+        "type": "education",
+        "date": "Sep 2024",
+        "description": "Magister's degree",
+        "detail": "FOI, University of Zagreb",
+        "badge": "badgeSoon"
+      }
+    ]
+  }
+  

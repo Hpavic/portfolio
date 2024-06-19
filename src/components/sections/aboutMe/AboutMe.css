@@ -1,0 +1,13 @@
+.about-me-section .section-content {
+    align-self: center;
+    margin-bottom: 20px;
+    max-width: 1000px;
+}
+
+.about-me {
+    text-align: left;
+}
+
+.about-me.current-occupation {
+    font-weight: 600;
+}

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import useShuffledSkills from '../../hooks/useShuffledSkills';
 import skillIcons from '../../constants/skillIcons';
-import './WorkProjectCard.css';
+import './ProjectCard.css';
 import { useLanguage } from '../../LanguageContext';
 import { formatDescription } from '../../utils/formatDescription';
 
-const WorkProjectCard = ({ title, imageUrl, siteUrl, description, skills, workLabel }) => {
+const ProjectCard = ({ title, imageUrl, siteUrl, description, skills, workLabel }) => {
   const [isOpen, setIsOpen] = useState(false);
   const shuffledSkills = useShuffledSkills(skills);
   const { translate } = useLanguage();
@@ -50,4 +50,4 @@ const WorkProjectCard = ({ title, imageUrl, siteUrl, description, skills, workLa
   );
 }
 
-export default WorkProjectCard;
+export default ProjectCard;

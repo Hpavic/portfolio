@@ -15,5 +15,14 @@
     "changeLanguage": "Change language",
     "languageNameInEnglish": "English",
     "languageNameInCroatian": "Croatian",
-    "languageNameInGerman": "German"
+    "languageNameInGerman": "German",
+    "titleFooter": "Contact",
+    "btnToTop": "To the Top!",
+    "titleAboutMe": "About me",
+    "msgAboutMe1": "Hi, I'm Hrvoje and welcome to my portfolio! I started my career as a front-end developer, where I gained valuable experience in two years working for my first company. Over time, my aspirations have expanded towards full-stack development, from databases to user interfaces. My primary focus is on app development using React, where I continuously improve my skills and keep up with the latest trends in technology.",
+    "msgAboutMe2": "I created this portfolio, to present in an interesting and clear way the projects I have worked on and the technologies I have been trying to perfect so far. Each project has its own story and learnings that have allowed me to grow as a programmer. If you are interested in collaborating or have projects that you think I can contribute, feel free to contact me.",
+    "msgOccupation": "I am currently in the final stages of completing my Master's thesis and actively seeking a React development job. Open to other opportunities as well.",
+    "titlePath": "My path",
+    "badgeSoon": "Coming soon",
+    "badgeJob": "First job"
 }
