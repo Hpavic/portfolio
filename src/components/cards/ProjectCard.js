@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import useShuffledSkills from '../../hooks/useShuffledSkills';
 import skillIcons from '../../constants/skillIcons';
+import useScrollIntoView from '../../hooks/useScrollIntoView';
 import './ProjectCard.css';
 import { useLanguage } from '../../LanguageContext';
 import { formatDescription } from '../../utils/formatDescription';
@@ -9,9 +10,16 @@ const ProjectCard = ({ title, imageUrl, siteUrl, description, skills, workLabel 
   const [isOpen, setIsOpen] = useState(false);
   const shuffledSkills = useShuffledSkills(skills);
   const { translate } = useLanguage();
+  const cardRef = useRef(null);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  useScrollIntoView(cardRef, isOpen);
 
   return (
-    <div className={`project-card ${isOpen ? 'expanded' : ''}`} style={{ backgroundImage: `url(${process.env.PUBLIC_URL}${imageUrl})` }}>
+    <div ref={cardRef} className={`project-card ${isOpen ? 'expanded' : ''}`} style={{ backgroundImage: `url(${process.env.PUBLIC_URL}${imageUrl})` }}>
       <div className="project-content">
         <div className="skills">
           {shuffledSkills.map(skill => (
@@ -39,7 +47,7 @@ const ProjectCard = ({ title, imageUrl, siteUrl, description, skills, workLabel 
           <span className="employee">{translate(workLabel)}</span>
         </div>
         <button 
-          onClick={() => setIsOpen(!isOpen)} 
+          onClick={handleToggle} 
           type="button" 
           className="toggle-details" 
           aria-label={isOpen ? translate('btnClose') : translate('btnDiscover')}>
