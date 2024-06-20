@@ -6,6 +6,7 @@
  * @param {HTMLElement} el - The element to check.
  * @return {number} - The expanded height of the element.
  */
+
 export const getExpandedHeight = (el) => {
     const width = window.innerWidth;
   

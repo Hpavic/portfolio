@@ -3,6 +3,7 @@
  * @param {Array} array - The array to shuffle.
  * @return {Array} - The shuffled array.
  */
+
 export const shuffleArray = (array) => {
     const result = array.slice();  // Clone the array to avoid mutating the original
     for (let i = result.length - 1; i > 0; i--) {
