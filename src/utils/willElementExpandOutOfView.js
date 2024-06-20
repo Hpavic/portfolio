@@ -7,9 +7,11 @@
  * @return {boolean} - True if the element will expand out of view, otherwise false.
  */
 
+import { getExpandedHeight } from "./getExpandedHeight";
+
 export const willElementExpandOutOfView = (el) => {
     const rect = el.getBoundingClientRect();
-    const expandedHeight = el.offsetHeight * 2;
+    const expandedHeight = getExpandedHeight(el);
     return rect.top + expandedHeight > window.innerHeight;
   };
   
