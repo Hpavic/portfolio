@@ -135,9 +135,17 @@
     align-self: center;
 }
 
-.toggle-details:hover {
-    border-color: #c5c5c5;
+@media (min-width: 576px) {
+    .toggle-details:hover {
+        border-color: #c5c5c5;
+        color: #c5c5c5;
+    }
+}
+
+.toggle-details:active {
     color: #c5c5c5;
+    border-color: #c5c5c5;
+    transform: scale(0.95);
 }
 
 .title-link {
