@@ -24,5 +24,9 @@
     "msgOccupation": "I am currently in the final stages of completing my Master's thesis and actively seeking a React development job. Open to other opportunities as well.",
     "titlePath": "My path",
     "badgeSoon": "Coming soon",
-    "badgeJob": "First job"
+    "badgeJob": "First job",
+    "btnSkeleton": "Mimic Skeleton",
+    "txtFetchingApi": "Loading data...",
+    "txtDataFetched": "Data loaded",
+    "txtFetchError": "Error fetching data"
 }

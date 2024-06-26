@@ -24,5 +24,9 @@
     "msgOccupation": "Ich befinde mich derzeit in den letzten Zügen meiner Masterarbeit und suche aktiv nach einer Stelle im React-Entwicklungsbereich. Ich bin auch offen für andere Möglichkeiten.",
     "titlePath": "Mein Weg",
     "badgeSoon": "Bald",
-    "badgeJob": "Erster Job"
+    "badgeJob": "Erster Job",
+    "btnSkeleton": "Nachahmen Skelett",
+    "txtFetchingApi": "Daten laden...",
+    "txtDataFetched": "Daten geladen",
+    "txtFetchError": "Fehler beim Abrufen der Daten"
 }

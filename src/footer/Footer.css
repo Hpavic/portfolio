@@ -33,3 +33,16 @@
 .footer .container a svg {
     fill: currentColor;
 }
+
+.footer .container-ref {
+    font-size: 8px;
+}
+
+.footer .container-ref a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer .container-ref a:hover {
+    font-weight: 600;
+}

@@ -24,5 +24,9 @@
     "msgOccupation": "Trenutno sam u završnoj fazi pisanja diplomskog rada i tražim posao kao React developer. Otvoren sam i za druge opcije.",
     "titlePath": "Moj put",
     "badgeSoon": "Uskoro",
-    "badgeJob": "Prvi posao"
+    "badgeJob": "Prvi posao",
+    "btnSkeleton": "Imitiraj Skeleton",
+    "txtFetchingApi": "Učitavanje podataka...",
+    "txtDataFetched": "Podaci učitani",
+    "txtFetchError": "Greška pri učitavanju podataka"
 }

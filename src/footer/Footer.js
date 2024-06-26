@@ -24,6 +24,18 @@ const Footer = () => {
                 ))}
             </div>
             <ToTopButton />
+            <div className="container-ref">
+                <span>Images by 
+                    <a href="https://www.freepik.com/free-vector/hand-drawn-skeleton-cartoon-illustration_49661111.htm#query=skeleton%20svg&position=1&from_view=keyword&track=ais_user&uuid=ffcadd21-c5c2-4b5d-b241-ca151e08af09" 
+                        target="_blank"
+                        rel="noopener noreferrer"> Freepik
+                    </a> and 
+                    <a href="https://flagpedia.net" 
+                        target="_blank"
+                        rel="noopener noreferrer"> Flagpedia
+                    </a>
+                </span>
+            </div>
         </footer>
     );
 };

@@ -90,6 +90,7 @@
 .timeline-date {
     font-weight: 700;
     margin-right: calc(8px + 28px);
+    white-space: nowrap;
 }
 
 .timeline-question {
@@ -103,5 +104,11 @@
 
     .timeline-date {
         margin-right: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .timeline-date {
+        font-size: 12px;
     }
 }

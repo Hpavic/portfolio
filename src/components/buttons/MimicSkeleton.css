@@ -1,0 +1,25 @@
+.skeleton-button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.mimic-skeleton-btn {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mimic-skeleton-btn:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
+}
