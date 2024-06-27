@@ -28,5 +28,6 @@
     "btnSkeleton": "Imitiraj Skeleton",
     "txtFetchingApi": "Učitavanje podataka...",
     "txtDataFetched": "Podaci učitani",
-    "txtFetchError": "Greška pri učitavanju podataka"
+    "txtFetchError": "Greška pri učitavanju podataka",
+    "btnCV": "Preuzmi moj CV"
 }

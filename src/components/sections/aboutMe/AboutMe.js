@@ -1,5 +1,6 @@
 import { useLanguage } from "../../../LanguageContext";
 import { formatDescription } from "../../../utils/formatDescription";
+import DownloadCV from "../../buttons/DownloadCV";
 import './AboutMe.css'
 
 const AboutMeSection = () => {
@@ -9,6 +10,7 @@ const AboutMeSection = () => {
     <section className="section about-me-section">
       <div className="section-title">
         <h2>{translate('titleAboutMe')}</h2>
+        <DownloadCV />
       </div>
       <div className="section-content">
         <div className="about-me">{translate('msgAboutMe1')}</div>

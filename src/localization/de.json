@@ -28,5 +28,6 @@
     "btnSkeleton": "Nachahmen Skelett",
     "txtFetchingApi": "Daten laden...",
     "txtDataFetched": "Daten geladen",
-    "txtFetchError": "Fehler beim Abrufen der Daten"
+    "txtFetchError": "Fehler beim Abrufen der Daten",
+    "btnCV": "Lade meinen Lebenslauf herunter"
 }

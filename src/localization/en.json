@@ -28,5 +28,6 @@
     "btnSkeleton": "Mimic Skeleton",
     "txtFetchingApi": "Loading data...",
     "txtDataFetched": "Data loaded",
-    "txtFetchError": "Error fetching data"
+    "txtFetchError": "Error fetching data",
+    "btnCV": "Download My CV"
 }
