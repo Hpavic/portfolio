@@ -30,6 +30,14 @@
       "description": ["pfDescription1", "pfDescription2"],
       "skills": ["React", "JavaScript", "CSS"],
       "workLabel": "workPersonal"
+    },
+    {
+      "title": "Tipster's hub",
+      "imageUrl": "/images/1x2.png",
+      "siteUrl": "",
+      "description": ["thDescription1", "thDescription2", "thDescription3"],
+      "skills": ["React", "TypeScript", "Redux", "ASPNETCore"],
+      "workLabel": "workPersonal"
     }
   ]
   
