@@ -7,7 +7,7 @@ const DownloadCV = () => {
 
     return (
         <div className="download-cv-button-container">
-            <a href="https://drive.google.com/uc?export=download&id=1U8F_nWKPn0IOYoodAjy4H1JIXQjYddz5"
+            <a href="https://drive.google.com/uc?export=download&id=1Qz3C7Yvqw0Ck5NaAm4Msh5ygBs1YL3y6"
                download="CV_Hrvoje_Pavic.pdf"
                className="button-download-cv"
                title={translate('btnCV')}
