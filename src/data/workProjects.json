@@ -26,7 +26,7 @@
     {
       "title": "Portfolio",
       "imageUrl": "/images/this_logo.png",
-      "siteUrl": "",
+      "siteUrl": "https://github.com/Hpavic/portfolio",
       "description": ["pfDescription1", "pfDescription2"],
       "skills": ["React", "JavaScript", "CSS"],
       "workLabel": "workPersonal"
