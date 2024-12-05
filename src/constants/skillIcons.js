@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJsSquare, faReact, faNodeJs, faNpm } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faJsSquare, faReact, faNodeJs, faNpm, faAngular, faSass } from '@fortawesome/free-brands-svg-icons';
 
 const skillIcons = {
   HTML: { icon: <FontAwesomeIcon icon={faHtml5} />, name: "HTML", color: "#e44d26" },
@@ -17,6 +17,10 @@ const skillIcons = {
   Express: { icon: <FontAwesomeIcon icon={faNpm} />, name: "Express", color: "#ffffff" },
   Puppeteer: { name: "Puppeteer", color: "#40B5A4" },
   HtmlAgilityPack: { name: "HtmlAgilityPack", color: "#e34f26" },
+  Angular: { icon: <FontAwesomeIcon icon={faAngular} />, name: "Angular", color: "#b40eb7"},
+  SASS: { icon: <FontAwesomeIcon icon={faSass} />, name: "SASS", color: "#ce5c8c" },
+  RestAPI : { name: "REST", color: "#51ad5c"},
+  RxJS: { name: "RxJS", color: "#d81b60"}
 };
 
 export default skillIcons;

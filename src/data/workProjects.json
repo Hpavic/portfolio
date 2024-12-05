@@ -1,43 +1,50 @@
 [
-    {
-      "title": "Grilljack",
-      "imageUrl": "/images/grill_jack_logo.png",
-      "siteUrl": "https://grilljack.ch",
-      "description": ["gjDescription1", "gjDescription2"],
-      "skills": ["HTML", "CSS", "JavaScript", "CSharp"],
-      "workLabel": "workYapanner"
-    },
-    {
-      "title": "Energy 3000",
-      "imageUrl": "/images/energy_3000_logo.svg",
-      "siteUrl": "https://shop.energy3000.com/",
-      "description": ["enDescription1", "enDescription2"],
-      "skills": ["JavaScript", "React", "CSharp", "TypeScript"],
-      "workLabel": "workYapanner"
-    },
-    {
-      "title": "Smartstore",
-      "imageUrl": "/images/smartstore_logo.png",
-      "siteUrl": "https://smartstore.com",
-      "description": ["ssDescription1"],
-      "skills": ["ASPNETCore", "EntityFramework", "MVC", "RazorPages"],
-      "workLabel": "workYapanner"
-    },
-    {
-      "title": "Portfolio",
-      "imageUrl": "/images/this_logo.png",
-      "siteUrl": "https://github.com/Hpavic/portfolio",
-      "description": ["pfDescription1", "pfDescription2"],
-      "skills": ["React", "JavaScript", "CSS"],
-      "workLabel": "workPersonal"
-    },
-    {
-      "title": "Tipster's hub",
-      "imageUrl": "/images/1x2.png",
-      "siteUrl": "",
-      "description": ["thDescription1", "thDescription2", "thDescription3"],
-      "skills": ["React", "TypeScript", "Redux", "ASPNETCore"],
-      "workLabel": "workPersonal"
-    }
-  ]
-  
+  {
+    "title": "Dekod",
+    "imageUrl": "/images/dekod_logo.png",
+    "siteUrl": "https://www.ulaznice.hr/web/",
+    "description": ["dekodDescription1", "dekodDescription2", "dekodDescription3", "dekodDescription4"],
+    "skills": ["HTML", "SASS", "TypeScript", "Angular", "RestAPI", "RxJS"],
+    "workLabel": "workDekod"
+  },
+  {
+    "title": "Grilljack",
+    "imageUrl": "/images/grill_jack_logo.png",
+    "siteUrl": "https://grilljack.ch",
+    "description": ["gjDescription1", "gjDescription2"],
+    "skills": ["HTML", "CSS", "JavaScript", "CSharp"],
+    "workLabel": "workYapanner"
+  },
+  {
+    "title": "Energy 3000",
+    "imageUrl": "/images/energy_3000_logo.svg",
+    "siteUrl": "https://shop.energy3000.com/",
+    "description": ["enDescription1", "enDescription2"],
+    "skills": ["JavaScript", "React", "CSharp", "TypeScript"],
+    "workLabel": "workYapanner"
+  },
+  {
+    "title": "Smartstore",
+    "imageUrl": "/images/smartstore_logo.png",
+    "siteUrl": "https://smartstore.com",
+    "description": ["ssDescription1"],
+    "skills": ["ASPNETCore", "EntityFramework", "MVC", "RazorPages"],
+    "workLabel": "workYapanner"
+  },
+  {
+    "title": "Portfolio",
+    "imageUrl": "/images/this_logo.png",
+    "siteUrl": "https://github.com/Hpavic/portfolio",
+    "description": ["pfDescription1", "pfDescription2"],
+    "skills": ["React", "JavaScript", "CSS"],
+    "workLabel": "workPersonal"
+  },
+  {
+    "title": "Tipster's hub",
+    "imageUrl": "/images/1x2.png",
+    "siteUrl": "",
+    "description": ["thDescription1", "thDescription2", "thDescription3"],
+    "skills": ["React", "TypeScript", "Redux", "ASPNETCore"],
+    "workLabel": "workPersonal"
+  }
+]

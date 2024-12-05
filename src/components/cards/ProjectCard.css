@@ -10,7 +10,6 @@
     transition: height 0.75s ease-in-out;
 }
 
-
 .project-card.expanded {
     height: 440px;
 }

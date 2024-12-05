@@ -55,6 +55,9 @@ const CareerSection = () => {
                               <>
                                   <p>{event.company}</p>
                                   <p>{event.role}</p>
+                                  {event.imageUrl ? (
+                                    <img src={`${process.env.PUBLIC_URL}${event.imageUrl}`}  alt={event.imageUrl} className="company-pic" />
+                                  ) : ('')}
                               </>
                               ) : (
                               <>
