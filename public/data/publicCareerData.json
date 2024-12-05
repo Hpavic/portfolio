@@ -25,6 +25,13 @@
         "description": "Master's degree",
         "detail": "FOI, University of Zagreb",
         "badge": "badgeSoon"
+      },
+      {
+        "type": "career",
+        "date": "Sep 2024 - ",
+        "company": "Dekod",
+        "role": "Angular frontend developer",
+        "imageUrl": "/images/logo-ulaznice-hr.png"
       }
     ]
   }
